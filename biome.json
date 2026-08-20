@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "extends": ["@nimblestudio/biome-config/root.biome.json", "@nimblestudio/biome-config/react.biome.json"],
+  "files": {
+    "includes": ["**", "!dist", "!node_modules"]
+  }
+}
