@@ -1,0 +1,129 @@
+.gitignore
+  s_2fc34bf8747324::t_6aa98b484cec5b 1-8
+README.md
+  s_c52a962b21f67f::t_46f32468d80a24 1-93
+biome.json
+  s_c52a962b21f67f::t_bb11b39e88e234 1-7
+index.html
+  s_c52a962b21f67f::t_f01e30e42f3dd6 1-21
+package-lock.json
+  s_c52a962b21f67f::t_15f41ead95b4ce 1-2554
+package.json
+  s_c52a962b21f67f::t_4d863c93f1bca3 1-35
+src/App.tsx
+  s_c52a962b21f67f::t_6620ef89b0f151 1-28
+src/audio/synth.ts
+  s_c52a962b21f67f::t_de65f7d30ee4ff 1-107
+src/game/clock.ts
+  s_c52a962b21f67f::t_f56882b917c8ae 1-26
+src/game/config.ts
+  s_c52a962b21f67f::t_db3f432f1006f8 1-43
+src/game/difficulty.test.ts
+  s_c52a962b21f67f::t_802939630f5819 1-79
+src/game/difficulty.ts
+  s_c52a962b21f67f::t_f6b305233d68eb 1-52
+src/game/layout.ts
+  s_c52a962b21f67f::t_536eb6a43688d8 1-10
+src/game/scoring.test.ts
+  s_c52a962b21f67f::t_94c7e0d78bd0e6 1-98
+src/game/scoring.ts
+  s_c52a962b21f67f::t_c25f979da5fec8 1-86
+src/game/storage.ts
+  s_c52a962b21f67f::t_72bf4de20d3350 1-21
+src/game/store.ts
+  s_c52a962b21f67f::t_bf3f78faa2e01a 1-166
+src/game/types.ts
+  s_c52a962b21f67f::t_1f62bb25356bea 1-34
+src/hooks/useFinePointer.ts
+  s_c52a962b21f67f::t_8061a46efc5645 1-17
+src/hooks/usePauseWhenHidden.ts
+  s_c52a962b21f67f::t_4552b147ceb830 1-20
+src/main.tsx
+  s_c52a962b21f67f::t_4ea02d6a0ec7c2 1-14
+src/strings.ts
+  s_c52a962b21f67f::t_e9649c35f52437 1-39
+src/styles.css
+  s_c52a962b21f67f::t_198b1634825e03 1-464
+src/three/Avocado.tsx
+  s_282265e9861eee::t_6113879026a2e8 1-232
+src/three/Board.tsx
+  s_c52a962b21f67f::t_9a542cef6d135d 1-79
+src/three/Bowl.tsx
+  s_c52a962b21f67f::t_a6477ea5d706a7 1-95
+src/three/CameraRig.tsx
+  s_c52a962b21f67f::t_25f57745f9fb36 1-118
+src/three/Counter.tsx
+  s_c52a962b21f67f::t_e4cbf07a4d3120 1-10
+src/three/GameClock.tsx
+  s_c52a962b21f67f::t_1c647606d0ccca 1-69
+src/three/Lights.tsx
+  s_c52a962b21f67f::t_f5fece40d456af 1-28
+src/three/Mallet.tsx
+  s_282265e9861eee::t_8dd6044df27ca8 1-120
+src/three/Scene.tsx
+  s_c52a962b21f67f::t_bdcb177999fb87 1-54
+src/three/ScorePops.tsx
+  s_c52a962b21f67f::t_bcf7c680dc9b64 1-36
+src/three/TapPlane.tsx
+  s_282265e9861eee::t_27b88976dc0f47 1-27
+src/three/clipping.ts
+  s_c52a962b21f67f::t_929056ff2ed530 1-7
+src/three/easing.ts
+  s_c52a962b21f67f::t_b69248ae31bdfb 1-11
+src/three/fitCamera.ts
+  s_c52a962b21f67f::t_df96d7e95e0649 1-45
+src/three/malletControl.ts
+  s_282265e9861eee::t_b0ff5e3c227645 1-18
+src/three/palette.ts
+  s_c52a962b21f67f::t_f328fbf4c60965 1-27
+src/ui/Countdown.tsx
+  s_c52a962b21f67f::t_c7703664890fd9 1-39
+src/ui/Hud.tsx
+  s_c52a962b21f67f::t_ed8be7f0776bf7 1-52
+src/ui/MuteButton.tsx
+  s_c52a962b21f67f::t_18d469a12381c7 1-13
+src/ui/PauseOverlay.tsx
+  s_c52a962b21f67f::t_c6b99b902d216d 1-21
+src/ui/ResultsScreen.tsx
+  s_c52a962b21f67f::t_6bb39e4022da36 1-50
+src/ui/TitleScreen.tsx
+  s_c52a962b21f67f::t_71eb81aaba0819 1-33
+tsconfig.json
+  s_c52a962b21f67f::t_31540b078fa0fb 1-8
+vercel.json
+  s_c52a962b21f67f::t_7f72e3c25f4d6f 1-3
+vite.config.ts
+  s_c52a962b21f67f::t_01eae67bbf8de7 1-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "4efe2d3cca9e147df1d4d564c824d69121cee37d",
+  "prompts": {},
+  "sessions": {
+    "s_282265e9861eee": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "48ec2def-94b7-4f0e-84e6-cc82f9d9078b",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Thomas Ledoux <thomasledoux1@gmail.com>"
+    },
+    "s_2fc34bf8747324": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "16d716bc-2c3c-4565-9065-c90cfed3b8fc",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Thomas Ledoux <thomasledoux1@gmail.com>"
+    },
+    "s_c52a962b21f67f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "68f99c17-f04d-427f-a32d-387314efed80",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Thomas Ledoux <thomasledoux1@gmail.com>"
+    }
+  }
+}
