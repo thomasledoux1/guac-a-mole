@@ -1,0 +1,21 @@
+index.html
+  s_3dcc2c8774ec9c::t_68c8918684fcc1 15-41
+README.md
+  s_3dcc2c8774ec9c::t_33ba6b99bebdc1 94-112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "c78d6771b34411a887319f42b48f865e03f3d580",
+  "prompts": {},
+  "sessions": {
+    "s_3dcc2c8774ec9c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "77303081-8227-429e-8c41-c0677d2b92ae",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Thomas Ledoux <thomasledoux1@gmail.com>"
+    }
+  }
+}
