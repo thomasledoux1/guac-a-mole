@@ -91,3 +91,22 @@ pass and are meant to be played with.
 Vercel picks up the Vite build with no configuration. `vercel.json` adds the
 single-page fallback. `base` in `vite.config.ts` is `/`; a host that serves from
 a subpath, such as GitHub Pages, needs that changed to the subpath.
+
+## Link previews
+
+`index.html` carries the Open Graph and Twitter card tags, and `public/og-image.png`
+is the 1200x630 preview picture. Two things are easy to get wrong here.
+
+Social crawlers do not run JavaScript, so the tags have to sit in the HTML shell.
+Setting them from React works for a browser and shows a blank card everywhere else.
+Every URL in them is absolute for the same reason: crawlers do not reliably resolve
+relative paths.
+
+The absolute URLs hardcode `https://guac-a-mole.vercel.app`. Moving the game to
+another domain means editing `og:url`, `og:image`, `twitter:image` and the canonical
+link to match, or the preview will point at the old host.
+
+LinkedIn caches what it scrapes and never re-reads a post that is already published.
+After a change, run the URL through the
+[Post Inspector](https://www.linkedin.com/post-inspector/) to refresh the cache, then
+write a new post. Editing the old one will not bring the picture back.
