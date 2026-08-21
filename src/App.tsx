@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react'
+
 import { useGameStore } from './game/store'
 import { usePauseWhenHidden } from './hooks/usePauseWhenHidden'
 import { Scene } from './three/Scene'
@@ -23,6 +25,7 @@ export const App = () => {
       {phase === 'countdown' && <Countdown />}
       {phase === 'paused' && <PauseOverlay />}
       {phase === 'results' && <ResultsScreen />}
+      <Analytics />
     </div>
   )
 }
